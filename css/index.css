@@ -1,0 +1,54 @@
+header {
+    background-image: url(/assets/image.png);
+    background-size: cover;
+    text-align: center;
+    height: auto;
+    color: white;
+  }
+  header a {
+    background-color: aliceblue;
+  }
+  header p {
+    text-align: right;
+    margin-right: 20px;
+  }
+  body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+  }
+  .container {
+    position: relative;
+    border-radius: 10px;
+
+    height: calc(100% - 12rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 6px;
+    border-radius: 10px;
+  }
+  .box a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+    text-decoration: none;
+    color: aliceblue;
+    border: 2px solid aliceblue;
+  }

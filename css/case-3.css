@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+  }
+  .box {
+    width: 200px;
+    height: 100px;
+    /* background-color: yellowgreen; */
+    border-radius: 20px;
+    position: absolute;
+    animation: go 15s ease infinite;
+  }
+
+  @keyframes go {
+    0%,
+    100% {
+      top: 0%;
+      left: 0%;
+      rotate: 0deg;
+      background-color: #0000FF;
+    }
+    12.5% {
+      top: 0%;
+      left: calc(100% - 220px);
+      rotate: 180deg;
+      background-color: yellow;
+    }
+    25% {
+      top: calc(100% - 150px);
+      left: calc(100% - 220px);
+      rotate: 360deg;
+      background-color: red;
+    }
+    37.5% {
+      top: calc(100% - 150px);
+      left: 0%;
+      rotate: 180deg;
+      background-color: #DE3163;
+    }
+    50% {
+      top: 0%;
+      left: 0%;
+      rotate: 0deg;
+      background-color: #d35400;
+    }
+    62.5% {
+      top: calc(100% - 150px);
+      left: 0%;
+      rotate: 180deg;
+      background-color: #DE3163;
+    }
+    75% {
+      top: calc(100% - 150px);
+      left: calc(100% - 220px);
+      rotate: 360deg;
+      background-color: red;
+    }
+    87.5% {
+      top: 0%;
+      left: calc(100% - 220px);
+      rotate: 180deg;
+      background-color: yellow;
+    }
+  }

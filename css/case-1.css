@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+}
+.container {
+  width: 200px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.menu-btn {
+  width: 200px;
+  height: 50px;
+  background-color: #001f3f;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  transition: 1s ease-in-out;
+  left: -150px;
+  box-shadow: 3px 3px 10px rgb(58, 48, 48);
+  border-radius: 0 5px 5px 0;
+}
+.menu-btn:hover {
+  left: 0;
+}
+.menu-btn img {
+  padding: 5px;
+}
+.menu-btn p {
+  margin: 10px;
+  color: beige;
+}

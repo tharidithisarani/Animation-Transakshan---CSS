@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  width: 400%;
+  height: 100vh;
+  overflow: hidden;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  animation: page 20s ease infinite;
+}
+.wallpaper {
+  width: 25%;
+  height: 100%;
+  background-size: cover;
+}
+.photo-1 {
+  background-image: url(/assets/case-5/image-1.jpeg);
+}
+.photo-2 {
+  background-image: url(/assets/case-5/image-2.jpg);
+}
+.photo-3 {
+  background-image: url(/assets/case-5/image-4.jpg);
+}
+.photo-4 {
+  background-image: url(/assets/case-5/image-5.jpeg);
+}
+
+@keyframes page {
+  0%,
+  100% {
+    transform: translateX(0%);
+  }
+
+  8% {
+    transform: translateX(0%);
+  }
+
+  16% {
+    transform: translateX(-25%);
+  }
+
+  24% {
+    transform: translateX(-25%);
+  }
+
+  32% {
+    transform: translateX(-50%);
+  }
+
+  40% {
+    transform: translateX(-50%);
+  }
+
+  50% {
+    transform: translateX(-75%);
+  }
+
+  58% {
+    transform: translateX(-75%);
+  }
+
+  66% {
+    transform: translateX(-50%);
+  }
+
+  74% {
+    transform: translateX(-50%);
+  }
+
+  82% {
+    transform: translateX(-25%);
+  }
+
+  90% {
+    transform: translateX(-25%);
+  }
+}
